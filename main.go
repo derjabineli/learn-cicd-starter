@@ -22,8 +22,9 @@ type apiConfig struct {
 }
 
 func unused() {
-	
+
 }
+
 //go:embed static/*
 var staticFiles embed.FS
 
